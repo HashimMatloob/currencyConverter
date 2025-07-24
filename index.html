@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <h1 class="head">Currency Converter</h1>
+        <form>
+<div class="amount">
+    <label for="amount">Enter amount: <input id="amount" type="number" value="100"></label>
+</div>
+<div class="dropdown">
+    <div class="from">
+        
+       <p>From:</p> 
+        <img src="https://flagsapi.com/US/flat/64.png">
+        
+        <select>
+            <option value="USD">USD</option>
+                   <option value="SAR">SAR</option>
+                  <option value="CAD">CAD</option>
+            <option value="USD">USD</option>
+<option value="INR">INR</option>
+<option value="EUR">EUR</option>
+<option value="GBP">GBP</option>
+<option value="PKR">PKR</option>
+
+
+        </select>
+    </div>
+    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+    <div class="to">
+              <p>TO:</p> 
+        <img src="https://flagsapi.com/PK/flat/64.png">
+        
+        <select>
+            <option value="USD">USD</option>
+                   <option value="SAR">SAR</option>
+                  <option value="CAD">CAD</option>
+            <option value="USD">USD</option>
+<option value="INR">INR</option>
+<option value="EUR">EUR</option>
+<option value="GBP">GBP</option>
+<option value="PKR" selected>PKR</option>
+ </select>
+    </div>
+</div>
+<p class="exhange-rate">Exhange Rate</p>
+<button>Exchange</button>
+        </form>
+    </div>
+</body>
+</html>
