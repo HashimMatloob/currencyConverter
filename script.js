@@ -23,8 +23,9 @@ select.appendChild(newOption);
             updateFlag(evt.target);
         });
 }
+let currcode;
 const updateFlag=(element)=>{
-    let currcode=element.value;
+     currcode=element.value;
 
     let countryCode=currencyCodes[currcode];
 
@@ -46,5 +47,6 @@ console.log(From.value,TO.value);
 const URL=`https://v6.exchangerate-api.com/v6/551f3a6f6a1e1ed3f0adfea2/pair/${fromVal}/${toVal}/${amountval}`;
 let response= await fetch(URL);
 let data=await response.json();
-exchange.innerText=data.conversion_result;
+console.log(toVal.currcode);
+exchange.innerText=`${amountval} ${(fromVal)} = ${data.conversion_result} ${toVal}`;
 });
