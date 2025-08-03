@@ -4,7 +4,7 @@ A simple and user-friendly web-based currency converter that allows users to con
 # Screenshot
 <img width="523" height="629" alt="Screenshot from 2025-07-25 18-18-07" src="https://github.com/user-attachments/assets/096ec153-c41d-475d-a0c4-d692c38e6e12" />
 
-# Live Demo
+# Try it here
 https://hashimmatloob.github.io/currencyConverter/
 View Live Website
 
